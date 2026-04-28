@@ -14,7 +14,7 @@ class Animal {
   makeSound(): void {
     console.log(`The ${this._species} makes a sound`);
   }
-}
+
 
 
 class Cat extends Animal {
@@ -35,4 +35,5 @@ class Dog extends Animal {
   bark(): void {
     console.log("woof");
   }
+}
 }
